@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded", () => {
       LogoUrl = "/assets/media/favicon/main-inverted.png";
     }
     const html = `
-<div class="f-nav">
       <div id="icon-container">
         <a class="icon" href="/./"><img alt="nav" id="INImg" src="https://i.ibb.co/LDjWkzyQ/715a82c9b696c8157b9995223f14823b-removebg-preview-1-1.png"></a>
       </div>
