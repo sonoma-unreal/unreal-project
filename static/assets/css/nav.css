@@ -20,11 +20,11 @@ img {
 }
 
 .f-nav {
-   top: 0;
+   top: 85.5%;
    letter-spacing: 2px;
    font-size: 22px;
-   left: 0;
-   right: 0;
+   left: 33%;
+   right: 33%;
    min-height: 10vh;
    padding: 0 25px;
    box-sizing: border-box;
@@ -70,7 +70,7 @@ img {
    font-size: 18px;
    color: var(--text-primary);
    font-weight: 600;
-   right: 2%;
+   right: 10%;
 }
 
 .f-nav-right .navbar-link {
