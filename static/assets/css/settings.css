@@ -210,7 +210,8 @@ select {
 
 @media screen and (min-width: 1000px) {
    .settings-container {
-      padding-top: 10%;
+      padding-top: 5%;
+      padding-bottom: 9%;
    }
 }
 
