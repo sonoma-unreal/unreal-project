@@ -3,13 +3,13 @@ let inFrame;
 try {
   inFrame = window !== top;
 } catch (e) {
-  inFrame = true;
+  inFrame = false;
 }
 if (!localStorage.getItem("ab")) localStorage.setItem("ab", true);
 if (
   !inFrame &&
   !navigator.userAgent.includes("Firefox") &&
-  localStorage.getItem("ab") === "true"
+  localStorage.getItem("ab") === "false"
 ) {
   const popup = open("about:blank", "_blank");
   setTimeout(() => {
