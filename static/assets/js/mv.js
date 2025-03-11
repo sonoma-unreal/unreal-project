@@ -37,14 +37,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     const html = `
       <div id="icon-container">
-        <a class="icon" href="/./"><img alt="nav" id="INImg" src="https://i.ibb.co/LDjWkzyQ/715a82c9b696c8157b9995223f14823b-removebg-preview-1-1.png"/></a>
+        <a class="icon" href="/./"><img alt="nav" id="INImg" src="https://i.ibb.co/LDjWkzyQ/715a82c9b696c8157b9995223f14823b-removebg-preview-1-1.png"></a>
       </div>
       <div class="f-nav-right">
         <a class="navbar-link" href="/./up"><i class="fa-solid fa-gamepad navbar-icon"></i></a>
         <a class="navbar-link" href="/./yz"><i class="fa-solid fa-phone navbar-icon"></i></a>
-        ${qp ? "" : '<a class="navbar-link" href="/./rx"><i class="fa-solid fa-laptop navbar-icon"></i></a>'}
+        ${qp ? "" : <a class="navbar-link" href="/./rx"><i class="fa-solid fa-laptop navbar-icon"></i></a>
         <a class="navbar-link" href="/./vk"><i class="fa-solid fa-gear navbar-icon settings-icon"></i></a>
-      </div>`;
+      </div></div>`;
     nav.innerHTML = html;
   }
 
