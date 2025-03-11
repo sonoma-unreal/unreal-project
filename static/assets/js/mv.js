@@ -42,9 +42,9 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="f-nav-right">
         <a class="navbar-link" href="/./up"><i class="fa-solid fa-gamepad navbar-icon"></i></a>
         <a class="navbar-link" href="/./yz"><i class="fa-solid fa-phone navbar-icon"></i></a>
-        ${qp ? "" : <a class="navbar-link" href="/./rx"><i class="fa-solid fa-laptop navbar-icon"></i></a>
+        <a class="navbar-link" href="/./rx"><i class="fa-solid fa-laptop navbar-icon"></i></a>
         <a class="navbar-link" href="/./vk"><i class="fa-solid fa-gear navbar-icon settings-icon"></i></a>
-      </div></div>`;
+      </div>`;
     nav.innerHTML = html;
   }
 
