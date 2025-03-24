@@ -184,7 +184,7 @@ function CreateCustomApp(customApp) {
   columnDiv.setAttribute("data-category", "all");
 
   const pinIcon = document.createElement("i");
-  pinIcon.classList.add("fa", "fa-map-pin");
+  pinIcon.classList.add("fa", "fa-location-pin");
   pinIcon.ariaHidden = true;
 
   const btn = document.createElement("button");
@@ -304,7 +304,7 @@ fetch(path)
       columnDiv.setAttribute("data-category", app.categories.join(" "));
 
       const pinIcon = document.createElement("i");
-      pinIcon.classList.add("fa", "fa-map-pin");
+      pinIcon.classList.add("fa", "fa-location-pin");
       pinIcon.ariaHidden = true;
 
       const btn = document.createElement("button");
