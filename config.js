@@ -3,7 +3,7 @@ const config = {
   users: {
     // You can add multiple users by doing username: 'password'.
     unrealprojectdev: "devedition2025",
-    luccaiscoollol: "truefriend25",
+    luccaisseamen: "horraylucca",
   },
 };
 
